@@ -1,19 +1,25 @@
-== Responsivator!!
+# Responsivator!!
 
 Just a page with an input and several iframes of different sizes.
 
-=== How?
+## How?
 
- 1. Clone the repo 
+1 Clone the repo 
 
-```git clone git://github.com/simplelogica/responsivator.git```
+```
+ git clone git://github.com/simplelogica/responsivator.git
+```
 
- 2. Install gems
+2 Install gems
 
-```bundle```
+```
+bundle
+```
 
- 3. Start thin
+3 Start thin
 
-```bundle exec thin start -R config.ru```
+```
+bundle exec thin start -R config.ru
+```
 
 Or visit http://responsivator.herokuapp.com/
