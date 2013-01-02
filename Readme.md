@@ -23,3 +23,5 @@ bundle exec thin start -R config.ru -p PORT
 ```
 
 Or visit http://responsivator.herokuapp.com/
+
+Based on an idea by @putuko (@carloscabo)
