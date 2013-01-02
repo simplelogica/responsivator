@@ -1,2 +1,2 @@
-require './responsavitize'
+require './responsivatize'
 run Sinatra::Application
