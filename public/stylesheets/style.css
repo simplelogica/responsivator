@@ -1,0 +1,132 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #7f7f7f;
+  color: #ccc;
+  margin: 90px 0 0 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top:0;
+  left:0;
+  padding: 16px 0 0 0;
+  background: #7f7f7f;
+  border-bottom: 1px solid #666;
+  overflow: hidden;
+}
+
+header input[type=text] {
+  width:80%;
+  float: left;
+  clear: both;
+  margin:0 0 0 16px;
+  padding: 4px 8px;
+  border:solid 1px #666;
+
+  font-size:1.4em;
+  text-align:left;
+  background: #a1a1a1;
+
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin:0 0 10px 0;
+}
+
+h2 span {
+  font-size:80%;
+  vertical-align:middle;
+}
+
+.options,
+.settings {
+  height: 16px;
+  float: left;
+  padding: 6px 0 0 16px
+}
+
+.colors {
+  float: left;
+  padding: 14px 0 0 32px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 4px;
+  border: 1px solid #666;
+}
+
+.borde {
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-left: 4px;
+  border: 4px solid #666;
+  background: transparent;
+}
+
+.color > a,
+.borde > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+label {
+  font-size: 1.5em;
+  float: left;
+  padding: 10px 20px 0 0;
+}
+
+#frames {
+  height: auto;
+  margin-bottom:10px;
+  padding-bottom:20px;
+  overflow: hidden;
+}
+
+.frame {
+  padding:20px;
+  float:left;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+.horizontal {
+  clear: both;
+}
+
+iframe {
+  border:solid 1px #000;
+}
+
+a.cutre-help {
+  display: block;
+  position: absolute;
+  top:16px;
+  right: 16px;
+  font-size: 1.4em;
+}
+
+.r {
+  border-radius:4px;
+  -ms-border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -khtml-border-radius:4px;
+}
